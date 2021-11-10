@@ -4,7 +4,7 @@ html {
 
 body {
     height: 100%;
-    background: #FFEE75;
+    background: #FFF2CC;
 }
 
 h1 {
@@ -13,25 +13,41 @@ h1 {
     
 }
 
+h2 {
+    text-align: center;
+    font-size: 100px;
+    margin: 500px;
+    height: 100%;
+    
+}
+
 .press {
     margin: 100px 42.5%;
-    background: #B4BBBA;
+    background: white;
     height: 200px;
     width: 300px;
     border-radius: 50%;
-    text-align: center;
     border-color: black;
     border-style: solid;
 }
 
+button {
+    font-size: 20px;
+    cursor: pointer;
+}
+
 .press:hover{
-    background: gray;
+    background: #B4BBBA;
 }
 
 .yes {
-    background: green;
+    height: 100%;
+    background-color: #B5D7A7;
+    margin: -500px;
 }
 
 .no {
-    background: red;
+    background: #EA9999;
+    height: 100%;
+    margin: -500px;
 }

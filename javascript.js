@@ -1,9 +1,15 @@
-int a = console.log(getRandomInt(2));
+
+var page = "http://drive.google.com/";
+
+var decision = 1;
 
 
-function yesno(){
-if (a = 0)
-{
-document.getElementById('yes').style.display = 'yes';
-}
+function decisionSelector(){
+  decision = Math.floor(Math.random() * 2);
+  if(decision == 0){
+    page = "yes.html";
+  }else{
+    page = "no.html"
+  }
+  window.open(page)
 }

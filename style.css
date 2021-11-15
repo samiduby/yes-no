@@ -5,6 +5,7 @@ html {
 body {
     height: 100%;
     background: #FFF2CC;
+    text-align: center;
 }
 
 h1 {
@@ -22,7 +23,7 @@ h2 {
 }
 
 .press {
-    margin: 100px 42.5%;
+    margin: 100px auto;
     background: white;
     height: 200px;
     width: 300px;
@@ -34,6 +35,8 @@ h2 {
 button {
     font-size: 20px;
     cursor: pointer;
+    text-align: center;
+    
 }
 
 .press:hover{
